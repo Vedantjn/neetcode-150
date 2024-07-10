@@ -11,6 +11,7 @@ public:
             while(st.top() != -1 && temperatures[i] >= temperatures[st.top()]){
                 st.pop();
             }
+            
             int temp = st.top() - i;
             if(temp < 0){
                 ans[i] = 0;
