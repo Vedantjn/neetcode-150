@@ -17,7 +17,7 @@ void findCombination(int ind, int target, vector < int > & arr, vector < vector 
 vector < vector < int >> combinationSum2(vector < int > & candidates, int target) {
   sort(candidates.begin(), candidates.end());
   vector < vector < int >> ans;
-  vector < int > ds;
+    vector < int > ds;
   findCombination(0, target, candidates, ans, ds);
   return ans;
 }
