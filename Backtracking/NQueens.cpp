@@ -42,7 +42,7 @@ public:
         if (isSafe1(row, col, board, n)) {
           board[row][col] = 'Q';
           solve(col + 1, board, ans, n);
-          board[row][col] = '.';
+          board[row][col] = '.';  
         }
       }
     }
